@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+
+.box {
+    width: 40rem;
+    height: 30rem;
+    border-radius: 5rem;
+    background-color: dodgerblue;
+    box-shadow: 0 0 1rem dodgerblue;
+}
+
+.red {
+    background-color: orangered;
+    box-shadow: 0 0 1rem orangered;
+}
+
+.green {
+    background-color: forestgreen;
+    box-shadow: 0 0 1rem forestgreen;
+}
+
+.footer {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    position: fixed;  /* 고정 위치 설정 */
+    bottom: 0;        /* 아래쪽에 고정 */
+    padding: 2rem 0;
+}

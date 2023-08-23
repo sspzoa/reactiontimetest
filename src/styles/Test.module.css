@@ -39,7 +39,29 @@
     font-size: 2rem;
     font-weight: bold;
     color: white;
-    position: fixed;  /* 고정 위치 설정 */
-    bottom: 0;        /* 아래쪽에 고정 */
+    position: fixed;
+    bottom: 0;
     padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+    .message {
+        font-size: 1.2rem;
+    }
+
+
+    .box {
+        width: 90vw;
+        height: 30rem;
+        border-radius: 3rem;
+    }
+
+    .footer {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        padding: 2rem 0;
+    }
 }

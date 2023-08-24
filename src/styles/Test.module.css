@@ -13,11 +13,13 @@
     transform: translate(-50%, -50%);
     font-size: 2rem;
     font-weight: bold;
+    text-align: center;
     color: white;
 }
 
 
 .box {
+    position: relative;
     width: 40rem;
     height: 30rem;
     border-radius: 5rem;
@@ -35,13 +37,15 @@
     box-shadow: 0 0 1rem forestgreen;
 }
 
-.footer {
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    padding: 2rem 0;
+.nameInputContainer {
+    margin-bottom: 20px;
+}
+
+#name {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    font-size: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -54,14 +58,5 @@
         width: 90vw;
         height: 30rem;
         border-radius: 3rem;
-    }
-
-    .footer {
-        font-size: 1.2rem;
-        font-weight: bold;
-        color: white;
-        position: fixed;
-        bottom: 0;
-        padding: 2rem 0;
     }
 }
